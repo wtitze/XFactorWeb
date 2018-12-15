@@ -1,0 +1,3 @@
+javac -cp XFactorWeb/WEB-INF/lib/servlet-api-2.5.jar XFactorWeb/src/*.java -d XFactorWeb/WEB-INF/classes
+cp -r XFactorWeb/* $TOMCAT_HOME/webapps/ROOT
+$TOMCAT_HOME/bin/catalina.sh run 2>&1
