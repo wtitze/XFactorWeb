@@ -9,4 +9,4 @@ servlet con accesso a database MS SQLServer
 | 2      | sposta tutti i file nelle cartelle corrispondenti di tomcat | `cp -r XFactorWeb/* $TOMCAT_HOME/webapps/ROOT` |
 | 3      | fa partire il server Tomcat | `$TOMCAT_HOME/bin/catalina.sh run 2>&1` |
 | 4      | per l'uso su codenvy.io, aggiungere nella "Preview URL" | `${server.8080}` |
-| 5      | ricordarsi di inserire i driver nella cartella lib di tomcat | `cp XFactorWeb/lib/mssql-jdbc-7.0.0.jre8.jar /home/user/tomcat8/lib` |
+| 5      | ricordarsi di inserire i driver nella cartella lib di tomcat | `cp mssql-jdbc-7.0.0.jre8.jar /home/user/tomcat8/lib` |
