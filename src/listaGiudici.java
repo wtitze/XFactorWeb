@@ -42,6 +42,8 @@ public class listaGiudici extends HttpServlet {
 			String sql = "SELECT * FROM Giudice";
 			ResultSet rs = stmt.executeQuery(sql);
 			
+			message = "";
+			
 			while(rs.next()){
 				//Retrieve by column name
 				String first = rs.getString("Nome");
